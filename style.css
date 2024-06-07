@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url('path/to/century_gothic.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #000;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .line {
+    width: 28px;
+    height: 3px;
+    background-color: #000;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+h1 {
+    font-size: 140px;
+    margin: 0;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.about-page {
+    margin-top: 150px;
+}
+
+.about-page h1 {
+    font-size: 50px;
+}
+
+.about-page p {
+    font-size: 24px;
+}
+
+.services {
+    margin-top: 100px;
+}
+
+.services h1 {
+    font-size: 50px;
+}
+
+.services-page {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.seo-box {
+    width: 527px;
+    height: auto;
+    border: 3px solid #000;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.seo-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.seo-description {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.web-design-container {
+    width: 527px;
+    height: auto;
+    border: 3px solid #000;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 90px;
+}
+
+.web-design-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.web-design-description {
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+/* Base Styles */
+.packages {
+    margin-top: 100px;
+    margin-left: 60px;
+}
+
+.packages h1 {
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.package {
+    width: 350px;
+    border: 3px solid #000;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.features {
+    font-size: 22px;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.features li {
+    list-style-type: disc;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.why-choose-me h1 {
+    font-size: 50px;
+}
+
+.why-choose-me p {
+    font-size: 24px;
+}
+
+.why-choose-me {
+    margin-top: 100px;
+}
+
+.contact {
+    margin-top: 100px;
+}
+
+.contact h1 {
+    font-size: 50px;
+}
+
+.contact-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+/* Responsive Styles for Mobile Viewports */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #fff;
+        width: 100%;
+        display: none;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    main {
+        margin-top: 80px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .about-page {
+        margin-top: 160px;
+    }
+
+    .services .seo-description, .web-design-description {
+        font-size: 12px;
+    }
+
+    .services .seo-title, .web-design-title {
+        font-size: 16px;
+    }
+
+    .features li {
+        font-size: 12px;
+    }
+
+    .about-page h1, .services h1, .packages h1, .why-choose-me h1, .contact h1 {
+        font-size: 24px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+
+    .contact h2 {
+        font-size: 16px;
+    }
+
+    .contact p {
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    .package .title, .price {
+        font-size: 16px;
+    }
+
+    .package, .seo-box, .web-design-container {
+        padding: 10px;
+        border: 2px solid #000;
+    }
+
+    .services, .packages, .why-choose-me, .contact {
+        margin-top: 0px;
+    }
+
+    .about-page p, .why-choose-me p {
+        font-size: 16px;
+    }
+
+    .services-page, .package-content, .contact-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .seo-description, .web-design-description {
+        font-size: 16px;
+    }
+
+    .seo-box, .web-design-container, .package {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container{
+        margin-left: -57px;
+    }
+    .packages h1{
+        margin-left: -50px;
+    }
+
+    .mover {
+        margin-left: -15px;
+    }
+
+    .why-choose-me p {
+        font-size: 12px;
+    }
+
+    .about-page p {
+        font-size: 13px;
+    }
+
+    .about-page {
+        padding: 20px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+}
