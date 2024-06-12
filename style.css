@@ -293,11 +293,11 @@ footer p {
         margin-top: 100px;
     }
 
-    main h1{
-                margin-bottom: 100px;
-    }
-    main p{
+    main p {
         margin-bottom: 180px;
+    }
+    main h1{
+        margin-bottom: 150px;
     }
 
     /*.about-page {
