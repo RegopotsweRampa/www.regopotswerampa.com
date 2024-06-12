@@ -237,6 +237,10 @@ footer p {
         align-items: center;
         padding: 0;
     }
+    .logo{
+        font-size: 20px;
+        font-weight: 600;
+    }
 
     nav {
         position: relative;
@@ -249,7 +253,7 @@ footer p {
         top: 60px;
         right: 0;
         background-color: #ffffff;
-        width: 240px;
+        width: 320px;
         display: none;
         padding: 20px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -277,11 +281,14 @@ footer p {
     }
 
     main {
-        margin-top: 180px;
+        margin-top: 170px;
     }
 
     h1 {
         font-size: 50px;
+    }
+    .soacials {
+        display: none;
     }
 
     p {
