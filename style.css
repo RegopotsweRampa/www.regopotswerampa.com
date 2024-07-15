@@ -103,7 +103,12 @@ p {
     justify-content: space-between;
     margin-left: 40px;
 }
-
+.package-page {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
 
 .seo-title {
     font-size: 28px;
@@ -191,7 +196,7 @@ p {
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #C1E8FF;
+    background-color: #5483B3;
 }
 .Package3 {
     width: 527px;
@@ -201,7 +206,7 @@ p {
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #7DA0CA ;
+    background-color: #5483B3;
 }
 .web-design-title {
     font-size: 28px;
@@ -443,7 +448,7 @@ footer p {
         margin-top: -10px;
     }
 
-    .package, .service1, .service2, .service3 {
+    .service1, .service2, .service3, .Package1, .Package2, .Package3 {
         padding: 30px;
         border: 2px solid #000;
     }
@@ -465,7 +470,7 @@ footer p {
     }
 
 
-    .services-page, .contact-container, .container{
+    .services-page,.package-page, .contact-container{
         flex-direction: column;
         align-items: center;
         padding: 0;
@@ -473,7 +478,10 @@ footer p {
     }
 
 
-    .service1, .service2, .service3, .package {
+    .Read-more button{
+        padding: 10px 40px;
+    }
+    .service1, .service2, .service3, .Package1, .Package2, .Package3{
         width: 80%;
         margin: 20px 0;
     }
@@ -493,11 +501,8 @@ footer p {
     #why-choose-me{
         margin-bottom: -100px;
     }
-    .packages{
-        margin-left: 0;
-    }
 
-    .package, .service1, .service2{
+    .package-page, .service1, .service2, .Package1, .Package2{
         margin-bottom: -13px;
     }
     footer {
