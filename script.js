@@ -12,6 +12,7 @@ const service1 = document.querySelector('.service1');
 const service2 = document.querySelector('.service2');
 const service3 = document.querySelector('.service3');
 
+
 // Function to check if the element is in the viewport
 function isInViewport(element) {
     const rect = element.getBoundingClientRect();
@@ -35,3 +36,6 @@ function handleScroll() {
 
 // Add scroll event listener
 window.addEventListener('scroll', handleScroll);
+
+
+

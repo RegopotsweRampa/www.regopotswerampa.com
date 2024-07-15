@@ -145,7 +145,7 @@ p {
     transform:translateX(50%);
     transition: transform 1s ease-in-out;
 }
-.service1.show, .service2.show, .service3.show, .Package1.show, .Package2.show, .Package3.show{
+.service1.show, .service2.show, .service3.show{
     transform: translateX(-0);
 }
 .service3 {
@@ -196,7 +196,7 @@ p {
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #5483B3;
+    background-color: #C1E8FF;
 }
 .Package3 {
     width: 527px;
@@ -206,7 +206,7 @@ p {
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #5483B3;
+    background-color: #7DA0CA;
 }
 .web-design-title {
     font-size: 28px;
@@ -465,7 +465,7 @@ footer p {
         transform:translateY(10%);
         transition: transform 3s ease-in-out;
     }
-    .service1.show, .service2.show, .service3.show {
+    .service1.show, .service2.show, .service3.show{
         transform: translateY(0);
     }
 
