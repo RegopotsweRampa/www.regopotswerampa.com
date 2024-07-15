@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'CenturyGothic', 'AppleGothic', 'Gill Sans', 'SegoeUI', 'Arial';
+    src: url('path/to/century_gothic.ttf') format('truetype');
+}
+body {
+    margin: 0;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #000;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle .line {
+    width: 20px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px 0;
+    border-radius: 2px;
+}
+
+
+footer p {
+    font-size: 12px;
+}
+

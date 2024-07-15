@@ -88,6 +88,7 @@ p {
     font-size: 24px;
 }
 
+
 .services {
     margin-top: 100px;
 }
@@ -100,17 +101,9 @@ p {
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    margin-left: 60px;
+    margin-left: 40px;
 }
 
-.seo-box {
-    width: 527px;
-    height: auto;
-    border: 3px solid #000;
-    border-radius: 18px;
-    padding: 20px;
-    font-family: 'Century Gothic', sans-serif;
-}
 
 .seo-title {
     font-size: 28px;
@@ -122,16 +115,94 @@ p {
     line-height: 1.4;
 }
 
-.web-design-container {
+
+.service1 {
     width: 527px;
     height: auto;
-    border: 3px solid #000;
+    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
-    margin-right: 90px;
+    margin-right: 20px;
+    background-color:  #C1E8FF;
+    transform:translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+.service2 {
+    width: 527px;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #7DA0CA ;
+    transform:translateX(50%);
+    transition: transform 1s ease-in-out;
+}
+.service1.show, .service2.show, .service3.show, .Package1.show, .Package2.show, .Package3.show{
+    transform: translateX(-0);
+}
+.service3 {
+    width: 527px;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #5483B3;
+    transform:translateX(10%);
+    transition: transform 1.5s ease-in-out;
+}
+.Read-more button{
+    padding: 10px 100px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16;
+    border-radius: 5px;
+
 }
 
+.Read-more button:hover{
+    transform: scale(1.0);
+    background-color: #0a61b721;
+    color: #ffffff;
+}
+
+
+.Package1 {
+    width: 527px;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #5483B3;
+
+}
+.Package2 {
+    width: 527px;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #C1E8FF;
+}
+.Package3 {
+    width: 527px;
+    height: auto;
+    border: 3px solid #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #7DA0CA ;
+}
 .web-design-title {
     font-size: 28px;
     font-weight: bold;
@@ -146,7 +217,7 @@ p {
 /* Base Styles */
 .packages {
     margin-top: 100px;
-    margin-left: 60px;
+padding: 20px;
 }
 
 .packages h1 {
@@ -159,23 +230,15 @@ p {
     margin-bottom: 20px;
 }
 
-.package {
-    width: 350px;
-    border: 3px solid #000;
-    border-radius: 18px;
-    padding: 20px;
-    font-family: 'Century Gothic', sans-serif;
-    margin-right: 10px;
-}
 
 .title {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .features {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.4;
     text-align: left;
     padding-left: 20px;
@@ -183,12 +246,6 @@ p {
 
 .features li {
     list-style-type: disc;
-}
-
-.price {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 20px;
 }
 
 .why-choose-me h1 {
@@ -200,12 +257,12 @@ p {
 }
 
 .why-choose-me {
-    margin-top: 100px;
+    margin-top: 80px;
     padding: 40px;
 }
 
 .contact {
-    margin-top: 100px;
+    margin-top: 10px;
     padding: 40px;
 }
 
@@ -226,6 +283,66 @@ footer {
 footer p {
     font-size: 12px;
 }
+
+.burger {
+    position: relative;
+    width: 40px;
+    height: 30px;
+    background: transparent;
+    cursor: pointer;
+    display: block;
+  }
+  
+  .burger input {
+    display: none;
+  }
+  
+  .burger span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+  }
+  
+  .burger span:nth-of-type(1) {
+    top: 0px;
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(2) {
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: left center;
+  }
+  
+  .burger span:nth-of-type(3) {
+    top: 100%;
+    transform-origin: left center;
+    transform: translateY(-100%);
+  }
+  
+  .burger input:checked ~ span:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 0px;
+    left: 5px;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(2) {
+    width: 0%;
+    opacity: 0;
+  }
+  
+  .burger input:checked ~ span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+    left: 5px;
+  }
 
 /* Responsive Styles for Mobile Viewports */
 @media only screen and (max-width: 768px) {
@@ -326,9 +443,25 @@ footer p {
         margin-top: -10px;
     }
 
-    .package, .seo-box, .web-design-container {
+    .package, .service1, .service2, .service3 {
         padding: 30px;
         border: 2px solid #000;
+    }
+
+    .service1{
+        transform:translateY(100%);
+        transition: transform 1s ease-in-out;
+    }
+    .service2{
+        transform:translateY(50%);
+        transition: transform 2s ease-in-out;
+    }
+    .service3{
+        transform:translateY(10%);
+        transition: transform 3s ease-in-out;
+    }
+    .service1.show, .service2.show, .service3.show {
+        transform: translateY(0);
     }
 
 
@@ -340,7 +473,7 @@ footer p {
     }
 
 
-    .seo-box, .web-design-container, .package {
+    .service1, .service2, .service3, .package {
         width: 80%;
         margin: 20px 0;
     }
@@ -364,7 +497,7 @@ footer p {
         margin-left: 0;
     }
 
-    .package, .seo-box{
+    .package, .service1, .service2{
         margin-bottom: -13px;
     }
     footer {
