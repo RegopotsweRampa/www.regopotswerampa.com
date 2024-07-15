@@ -55,7 +55,7 @@ nav ul li a {
 .menu-toggle .line {
     width: 20px;
     height: 3px;
-    background-color: #000;
+    background-color: #ffffff;
     margin: 2px 0;
     border-radius: 2px;
 }
@@ -378,10 +378,6 @@ footer p {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .socials li{
-        display: inline-flex;
-
-    }
     nav ul.active {
         display: flex;
     }
@@ -493,13 +489,14 @@ footer p {
     }
 
     #why-choose-me{
-        margin-bottom: -100px;
+        margin-bottom: -50px;
+        padding: 20px;
     }
 
     .package-page, .service1, .service2, .Package1, .Package2{
         margin-bottom: -13px;
     }
     footer {
-        margin-top: 20px;
+        margin-top: -50px;
     }
 }
