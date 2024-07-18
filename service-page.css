@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'CenturyGothic', 'AppleGothic', 'Gill Sans', 'SegoeUI', 'Arial';
+    src: url('path/to/century_gothic.ttf') format('truetype');
+}
+/*FORMAT DISPLAY SETTINGS*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: Century Gothic, sans-serif;
+    text-align: center;
+    color: #000;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+
+/*NAVIGATION BAR*/
+
+/*Aligns the header and the contents*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: rgb(78, 140, 255) ;
+}
+
+#QuoteButton a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+#QuoteButton{
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+}
+#QuoteButton:hover{
+    color: #ffffff;
+    background-color: rgb(78, 140, 255);
+}
+
+/*MAIN DESIGN*/
+#page-name{
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+#catcher{
+    font-size: 24px;
+    margin-top: 30px;
+    color: #5483B3;
+    font-weight: lighter;
+}
+
+.image-01{
+    width: 1000px;
+    height: 500px;
+    margin: 28px auto;
+    background-color: #c0c0c0;
+}
+
+.process-header-col-1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+/*INFOGRAPHICS DESIGN*/
+
+.infographics-1, .infographics-2{
+    margin-top: -20px;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.infographics-2{
+    margin-top: -100px;
+}
+
+
+.infographic{
+    width: 100%;
+    margin: 30px;
+    padding: 30px;
+    background-color: #7DA0CA;
+    border-radius: 10px;
+    color: #021024;
+
+}
+.infographic h4{
+    color: #052659;
+    font-weight: 400;
+
+}
