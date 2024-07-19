@@ -68,104 +68,47 @@ nav ul li a:hover{
 
 /*MAIN DESIGN*/
 #page-name{
-    font-size: 100px;
-    margin-top: 20px;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: -40%;
 }
 
 #catcher{
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 30px;
     color: #5483B3;
     font-weight: lighter;
+    margin-left: -40%;
 }
 
-.image-01{
-    width: 1000px;
-    height: 500px;
-    margin: 28px auto;
-    background-color: #c0c0c0;
+#Consultation a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
 }
-
-.process-header-col-1{
-    font-size: 50px;
-    margin-top: 100px;
-}
-
-/*INFOGRAPHICS DESIGN*/
-
-.infographics-1, .infographics-2{
-    margin-top: -20px;
-    display: flex;
-    padding: 40px;
-    justify-content: space-between;
-    font-size: 14px;
-}
-.infographics-2{
-    margin-top: -100px;
-}
-
-
-.infographic{
-    width: 100%;
-    margin: 30px;
-    padding: 30px;
-    background-color: #7DA0CA;
-    border-radius: 10px;
-    color: #021024;
-
-}
-.infographic:hover{
-    transform: translateY(-10px); 
-}
-.infographic h4{
-    color: #052659;
-    font-weight: 400;
-
-}
-
-.portfolio{
-    padding: 40px;
-}
-/*CASE STUDIES*/
-
-.logo img:hover{
-    transform: scale(1.1);
-}
-#image-1{
-    width: 600px;
-    flex: 1;
-    margin-left: 50px;
-}
-h4{
-    font-weight: lighter;
-}
-.container{
-    display: flex;
-}
-.content{
-    flex: 1;
-}
-
-.logo img{
-    width: 10%;
-    margin-left: 20px;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-}
-.logo{
-    padding: 20px;
-}
-
-
-/*FOOTER*/
-footer {
+#Consultation{
+    padding: 10px 20px;
+    border: 2px solid white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    margin-left: -40%;
     margin-top: 30px;
-    margin-bottom: 20px;
+}
+#Consultation:hover{
+    color: #ffffff;
+    background-color: rgb(78, 140, 255);
+}
+.image-01{
+    width: 450px;
+    height: 350px;
+    background-color: #c0c0c0;
+    margin-top: -300px;
+    margin-left: 750px;
 }
 
-footer p {
-    font-size: 12px;
-}
+
+
+
 /*RESPONSIVENESS*/
 
 @media only screen and (max-width: 768px){
@@ -230,69 +173,30 @@ footer p {
         background-color: rgb(78, 140, 255);
     }
 
-    .text-01{
-        padding: 20px;
-        text-align: center;
-    }
     #page-name{
-        font-size: 38px;
+        font-size: 30px;
         font-weight: 500;
+        text-align: center;
+        margin-top: 170px;
+        margin-left: 0;
     }
     #catcher{
         font-size: 12px;
+        margin-left: 0;
     }
-
     .image-01{
         width: 98%;
-        height: 300px;
-    }
-
-
-    /*INFOGRAPHICS SETTINGS*/
-    .process-header-col-1{
-        font-size: 24px;
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-    .infographics-1, .infographics-2{
-        flex-direction: column;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-    .infographic{
-        width: 80%;
-        margin: 10px 0;
-    }
-    /*CASE STUDIES*/
-
-    #image-1{
-        width: 200px;
-        margin: 0 auto ;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: -320px;
     }
     
-    h4{
-        font-weight: lighter;
-    }
-    .container{
-        margin-top: -50px;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .logo img{
-        width: 15%;
-        margin-left: 0;
-        object-fit: contain;
-    }
-    .logo{
-        padding: 5px;
-    }
-    p{
+    #Consultation a{
         font-size: 12px;
     }
-    .heading h2{
-        font-size: 16px;
+    #Consultation{
+        margin-left: 0;
+        background-color: transparent;
     }
     
 }
