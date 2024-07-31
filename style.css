@@ -124,24 +124,22 @@ p {
 .service1 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color:  #C1E8FF;
+    background-color:  #e8e8e8;
     transform:translateX(100%);
     transition: transform 0.5s ease-in-out;
 }
 .service2 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #7DA0CA ;
+    background-color: #e8e8e8 ;
     transform:translateX(50%);
     transition: transform 1s ease-in-out;
 }
@@ -151,12 +149,11 @@ p {
 .service3 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #5483B3;
+    background-color: #e8e8e8;
     transform:translateX(10%);
     transition: transform 1.5s ease-in-out;
 }
@@ -180,33 +177,30 @@ p {
 .Package1 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #5483B3;
+    background-color: #e8e8e8;
 
 }
 .Package2 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #C1E8FF;
+    background-color: #e8e8e8;
 }
 .Package3 {
     width: 527px;
     height: auto;
-    border: 3px solid #ffffff;
     border-radius: 18px;
     padding: 20px;
     font-family: 'Century Gothic', sans-serif;
     margin-right: 20px;
-    background-color: #7DA0CA;
+    background-color: #e8e8e8;
 }
 .web-design-title {
     font-size: 28px;
@@ -440,7 +434,6 @@ footer p {
 
     .service1, .service2, .service3, .Package1, .Package2, .Package3 {
         padding: 30px;
-        border: 2px solid #000;
     }
 
     .service1{

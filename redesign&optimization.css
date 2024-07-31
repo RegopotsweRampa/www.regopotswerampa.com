@@ -14,6 +14,7 @@ body{
     color: #000;
     background-color: #ffffff;
     scroll-behavior: smooth;
+    padding: 40px;
 }
 
 /*NAVIGATION BAR*/
@@ -21,6 +22,8 @@ body{
 /*Aligns the header and the contents*/
 header {
     display: flex;
+
+    
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
@@ -106,8 +109,45 @@ nav ul li a:hover{
     margin-left: 750px;
 }
 
+.overview-section{
+    padding: 50px;
+    margin: 40px auto;
+}
 
+.services{
+    background-color: #eeeeee;
+    padding: 40px;
+    border-radius: 20px;
+}
 
+/*CARDS*/
+.service-container{
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+}
+
+.service{
+    min-height: 150px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    color: #ffffff;
+
+}
+
+.get-in-touch, .why-redesign{
+    padding: 40px;
+}
+
+.revamp{
+    font-family: 'Comic Sans MS', 'Brush Script MT', cursive;
+    font-size: 20px;
+    color: #0095ff;
+}
 
 
 
@@ -201,5 +241,55 @@ nav ul li a:hover{
         margin-left: 0;
         background-color: transparent;
     }
+    .overview-section{
+        padding: 10px;
+    }
+
+    .overview-section h2{
+        font-size: 16px;
+    }
+    .overview-section p{
+        font-size: 12px;
+    }
     
+    .services{
+        padding: 5px;
+        background: none;
+    }
+    .services h2{
+        font-size: 16px;
+    }
+    .service h3{
+        font-size: 16px;
+    }
+    .service p{
+        font-size: 12px;
+    }
+    .service{
+        margin-top: -10px;
+        min-width: 150px;
+    }
+
+    .why-redesign{
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+
+    .why-redesign h2{
+        font-size: 16px;
+    }
+    
+    .why-redesign p{
+        font-size: 12px;
+    }
+    .get-in-touch{
+        padding: 20px;
+    }
+
+    .get-in-touch h2{
+        font-size: 16px;
+    }
+    .get-in-touch p{
+        font-size: 12px;
+    }
 }
