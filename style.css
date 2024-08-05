@@ -283,7 +283,7 @@ footer p {
     height: 30px;
     background: transparent;
     cursor: pointer;
-    display: block;
+    display: none;
   }
   
   .burger input {
