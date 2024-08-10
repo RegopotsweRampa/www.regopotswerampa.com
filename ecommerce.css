@@ -51,12 +51,8 @@ nav ul li a:hover{
     color: rgb(78, 140, 255) ;
 }
 
-#QuoteButton a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 16px;
-}
 #QuoteButton{
+    color: #ffffff;
     padding: 10px 20px;
     border: 2px solid rgb(0, 0, 0);
     background-color: rgb(0, 0, 0);
@@ -66,9 +62,7 @@ nav ul li a:hover{
     color: #000000;
     background-color: transparent;
 }
-#QuoteButton a:hover{
-    color: #000;
-}
+
 
 /*MAIN PAGE*/
 
@@ -110,6 +104,120 @@ footer p {
     font-size: 12px;
 }
 
+.lapse{
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #2083fb;
+    padding: 40px;
+    
+}
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+.card h2{
+    font-size: 50px;
+
+}
+.card h4{
+    color: #0000006a;
+
+}
+
+.package-container{
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 5px;
+    padding: 40px;
+}
+.package{
+    width: 527px;
+    height: auto;
+    border-radius: 18px;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin-right: 20px;
+    background-color: #000000;
+}
+#heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#features {
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 20px;
+}
+.process-container{
+    max-width: 100%;
+    overflow-x: auto;
+    display: flex;
+    gap: 5px;
+    padding: 40px;
+}
+
+.process{
+    width: 590px;
+    height: auto;
+    border-radius: 18px;
+    color: #000000;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #dbe9f9c4;
+}
+.icon{
+    font-size: 30px;
+}
+.why-section{
+    background-color: #000;
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 60px;
+}
+.why-container{
+    max-width: 100%;
+    display: flex;
+    gap: 5px;
+    padding: 20px;
+
+}
+
+.list-item{
+    width: 590px;
+    height: auto;
+    border-radius: 18px;
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    background-color: #b5d7ffc4;
+    
+}
+
+
+.contact {
+    margin-top: 20px;
+    padding: 40px;
+}
+.contact h2{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.contact h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
 /*RESPONSIVENESS*/
 
 @media only screen and (max-width: 768px){
@@ -185,6 +293,62 @@ footer p {
     #welcome-catchphrase{
         color: #0c004a;
         font-size: 16px;
+    }
+
+    .package{
+        font-size: 70%;
+    }
+    .package-container{
+        gap: 0;
+    }
+
+    .why-section{
+        background-color: transparent;
+        color: #000;
+        margin: 0;
+        overflow-x: auto;
+        padding: 0;
+        }
+
+    .list-item{
+        width: 300px;
+        color: #000;
+        font-size: 12px;
+    }
+    .cards{
+        gap: 30px;
+    }
+    .card{
+        font-size: 50%;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .lapse{
+        text-align: center;
+        margin-left: -20px;
+    }
+
+    .contact h1 {
+        font-size: 24px;
+    }
+
+    .contact p{
+        font-size: 12px;
+    }
+    .contact h2{
+        font-size: 16px;
+    }
+    .contact p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
     }
 
     footer {
