@@ -1,10 +1,7 @@
-@font-face {
-    font-family: 'CenturyGothic', 'AppleGothic', 'Gill Sans', 'SegoeUI', 'Arial';
-    src: url('path/to/century_gothic.ttf') format('truetype');
-}
+
 body {
     margin: 0;
-    font-family: Century Gothic, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: center;
     color: #000;
     background-color: #ffffff;
